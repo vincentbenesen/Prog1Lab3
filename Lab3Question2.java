@@ -26,7 +26,7 @@ public class Lab3Question2{
         }else if (25.0 >= yourBMI && yourBMI <= 29.9){
             System.out.println("You're Overweight");
         }else if (yourBMI > 30.0){
-         System.out.println("You're Obese"); 
+            System.out.println("You're Obese"); 
         }
       
        }
