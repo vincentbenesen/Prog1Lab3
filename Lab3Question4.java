@@ -27,28 +27,28 @@ public class Lab3Question4{
 			canadianDollars = scan.nextDouble();
 			double canadianToUsd = canadianDollars * 0.75;
 			System.out.println(currency.format(canadianDollars) + " CAD is equal to " 
-							   + currency.format(canadianToUsd)+ " USD");
+					   + currency.format(canadianToUsd)+ " USD");
 		}else if (numberChosen == 3){
 			System.out.println("\nConversion of Celsius to Fahrenheit");
 			System.out.println("Write the the amount of Celsius you want to convert in Fahrenheit");
 			int celsius = scan.nextInt();
 			double celsiusToFahrenheit = (celsius * 1.8) + 32;
 			System.out.println(celsius + " celsius is equal to " 
-							   + celsiusToFahrenheit + " Fahrenheit");
+					   + celsiusToFahrenheit + " Fahrenheit");
 		}else if (numberChosen == 4){
 			System.out.println("\nConversion of Fahrenheit to Celsius");
 			System.out.println("Write the value of Fahrenheit you want to convert into Celsius");
 			double fahrenheit = scan.nextDouble();
 			double fahrenheitToCelsius = (fahrenheit - 32) / 1.8;
 			System.out.println(fahrenheit + " Fahrenheit is equal to " + 
-							   twoDecimal.format(fahrenheitToCelsius) + " Celsius");
+					   twoDecimal.format(fahrenheitToCelsius) + " Celsius");
 		}else if (numberChosen == 5){
 			System.out.println("\nConversion of CAD to EUR");
 			System.out.println("Write the amount of Canadian dollars you want to convert to Euro");
 			canadianDollars = scan.nextDouble();
 			double canadianToEur = canadianDollars * 0.66;
 			System.out.println(currency.format(canadianDollars) + " CAD is equal to " 
-							   + currency.format(canadianToEur) + " EUR");
+					   + currency.format(canadianToEur) + " EUR");
 		}else{
 			System.out.println ("INVALID");
 		}
