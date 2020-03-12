@@ -12,7 +12,7 @@ public class RadiusOfCircle{
 
 		if (radius <= 0){
 			System.out.println ("The value that you put is INVALID" + 
-								"\nMake sure to put a value that is greater than zero");
+					    "\nMake sure to put a value that is greater than zero");
 		}else{
 			area = Math.PI * (Math.pow(radius, 2));
 			System.out.println("The area of circle is " + twoDecimals.format(area));
