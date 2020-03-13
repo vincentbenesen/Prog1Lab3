@@ -1,6 +1,12 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
+/*This code calculates the Body Mass Index (BMI) of a person. 
+The user should input the weight in pounds and height in feet, and the program should output the weight converted to kilograms, 
+height converted to meters, the calculated BMI (BMI = Kg/(m2)), and its classification as underweight,
+normal, overweight or obese.
+*/
+
 public class Lab3Question2{
 
 
