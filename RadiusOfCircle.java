@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
+/*This code calculates the area of a circle, based on a radius given by the user. 
+If the input is negative, or zero, the program should not calculate the area, but warn the user of the mistake.
+*/
+
 public class RadiusOfCircle{
 	public static void main ( String [] args ){
 
