@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/*This code prompts the user for the current temperature in Celsius and outputs different messages if it is above or below zero.
+*/
+
 public class TemperatureIdentifier{
 	public static void main(String[] args) {
 		
