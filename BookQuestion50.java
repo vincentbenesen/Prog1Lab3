@@ -17,8 +17,6 @@ public class BookQuestion50{
 			System.out.println("It is fall");
 		} else if (temperature < 50) {
 			System.out.println("It is winter");
-		} else if (temperature > 110 || temperature < -5) {
-			System.out.println("The temperature entered is outside the valid range");
 		}
 	}
 }
